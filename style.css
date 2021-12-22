@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    max-width: 800px;
+    height: 80vh;
+    margin-top: 7rem;
+    margin-left: 25rem;
+    
+}
+
+h1{
+    
+    text-align: center;
+}
+
+#input-task{
+    width: 600px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding-top: 2rem;
+    border: none;
+    border-bottom: 2px solid rgb(114, 71, 114);
+    letter-spacing: .5rem;
+    font-size: 15px;
+    margin-left: 1rem;
+}
+#add-task-button{
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    padding: 1rem;
+    color:#fff;
+    background-color: rgb(212, 185, 212);
+    margin-left: .5rem;
+    border: none;
+
+
+}
+#task-list{
+    position: absolute;
+    top: 150px;
+    margin-left: 1rem;
+    list-style: none;
+}
+#task-list li{
+    margin-bottom: 1.5rem;
+}
+.task{
+    margin-left: 1.5rem;
+}
+
+.delete-btn{
+    background-color: red;
+    float: right;
+    margin-left: 28rem;
+    font-size: 18px;
+    font-weight: 500;
+    padding: .2rem;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+}
