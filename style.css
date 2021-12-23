@@ -9,7 +9,7 @@
     max-width: 800px;
     height: 80vh;
     margin-top: 7rem;
-    margin-left: 25rem;
+    margin-left: 20rem;
     
 }
 
@@ -42,10 +42,12 @@ h1{
 
 
 }
-#task-list{
+.containers{
     position: absolute;
     top: 150px;
     margin-left: 1rem;
+}
+#task-list{
     list-style: none;
 }
 #task-list li{
@@ -65,4 +67,10 @@ h1{
     border: none;
     border-radius: 50%;
     color: #fff;
+}
+li input[type=checkbox]:checked{
+    color: rgb(17, 84, 230);
+}
+ul li.checked{
+    text-decoration: line-through;
 }
